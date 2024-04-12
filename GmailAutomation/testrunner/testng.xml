@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="tests2.TestListener"/>
+    </listeners>
+
+        <test name="AmazonCartTestChrome">
+        <parameter name="browser" value="chrome" /> 
+        <classes>
+            <class name="tests2.AmazonCartTest"/>
+        </classes>
+    </test> 
+
+    <test name="AmazonCartTestFirefox">
+        <parameter name="browser" value="firefox" /> 
+        <classes>
+            <class name="tests2.AmazonCartTest"/>
+        </classes>
+    </test> 
+
+    <test name="AmazonCartTestIE">
+        <parameter name="browser" value="ie" /> 
+        <classes>
+            <class name="tests2.AmazonCartTest"/>
+        </classes>
+    </test> 
+
+    
+    <test name="AmazonSignInTest">
+        <parameter name="browser" value="chrome" /> 
+        <classes>
+            <class name="tests2.AmazonSignInTest"/>
+        </classes>
+    </test>
+</suite>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="3">
+    <listeners>
+        <listener class-name="tests2.TestListener"/>
+    </listeners>
+
+        <test thread-count="5" name="AmazonCartTestChrome">
+        <parameter name="browser" value="chrome" /> 
+        <classes>
+            <class name="tests2.AmazonCartTest"/>
+        </classes>
+    </test> 
+
+    <test thread-count="5" name="AmazonCartTestFirefox">
+        <parameter name="browser" value="firefox" /> 
+        <classes>
+            <class name="tests2.AmazonCartTest"/>
+        </classes>
+    </test> 
+
+    <test thread-count="5" name="AmazonCartTestIE">
+        <parameter name="browser" value="ie" /> 
+        <classes>
+            <class name="tests2.AmazonCartTest"/>
+        </classes>
+    </test> 
+
+    
+    <test thread-count="5" name="AmazonSignInTest">
+        <parameter name="browser" value="chrome" /> 
+        <classes>
+            <class name="tests2.AmazonSignInTest"/>
+        </classes>
+    </test>
+</suite>-->
+

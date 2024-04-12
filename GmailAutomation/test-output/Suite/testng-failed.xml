@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="tests2.TestListener"/>
+  </listeners>
+  <test name="AmazonCartTestFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests2.AmazonCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="searchAndAddToCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests2.AmazonCartTest -->
+    </classes>
+  </test> <!-- AmazonCartTestFirefox(failed) -->
+  <test name="AmazonCartTestIE(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="tests2.AmazonCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="searchAndAddToCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests2.AmazonCartTest -->
+    </classes>
+  </test> <!-- AmazonCartTestIE(failed) -->
+  <test name="AmazonSignInTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests2.AmazonSignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signInTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests2.AmazonSignInTest -->
+    </classes>
+  </test> <!-- AmazonSignInTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

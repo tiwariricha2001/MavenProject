@@ -1,0 +1,8 @@
+[INFO ] 2024-04-03 12:53:43.083 [main] AmazonCartTest - Opened Amazon website successfully
+[INFO ] 2024-04-03 12:53:45.706 [main] AmazonCartTest - Searched for Samsung Galaxy
+[INFO ] 2024-04-03 12:53:49.130 [main] AmazonCartTest - Landed on Product Page
+[INFO ] 2024-04-03 12:53:49.393 [main] AmazonCartTest - Added the product to cart
+[INFO ] 2024-04-03 12:54:04.984 [main] AmazonCartTest - Ran SignIn test successfully
+[INFO ] 2024-04-03 12:54:06.045 [main] AmazonCartTest - Updated Location
+[INFO ] 2024-04-03 12:54:16.606 [main] AmazonCartTest - Landed on amazonMiniTV
+[ERROR] 2024-04-03 12:54:17.158 [main] AmazonCartTest - Test failed
